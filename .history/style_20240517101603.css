@@ -14,9 +14,9 @@ main {
     background-color: var(--white);
 }
 
-#avatar {
+img {
     /* make round */
     border-radius: 50%;
     /* make image smaller */
-    width: 20%;
+    width: 10%;
 }
