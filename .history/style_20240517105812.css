@@ -1,0 +1,36 @@
+/* root */
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: var(--light-gray);
+}
+
+main {
+    background-color: var(--white);
+}
+
+#avatar {
+    /* make round */
+    border-radius: 50%;
+    /* make image smaller */
+    width: 20%;
+}
+
+#share {
+    width: 5%;
+    /* add grayish blue circle as background to icon */
+    background-image: url(./images/icon-share.svg);
+    background-repeat: no-repeat;
+    background-color: var(--grayish-blue);
+    border-radius: 50%;
+    padding: 10px;
+    /* center icon */
+    margin-left: 10px;
+    margin-right: 10px;
+
+}

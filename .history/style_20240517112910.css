@@ -24,11 +24,6 @@ main {
     
 }
 
-p {
-    font-size: 13px;
-    color: var(--grayish-blue);
-}
-
 #section-1 {
     background-image: url(./images/drawers.jpg);
     background-repeat: no-repeat;
@@ -43,7 +38,7 @@ p {
 }
 
 #share {
-    width: 7%;
+    width: 8%;
     position: static;
     margin-bottom: 2%;
 }
@@ -52,7 +47,7 @@ p {
     /* add light gray circle as background to icon */
     background-color: var(--light-gray);
     border-radius: 50%;
-    padding: 10px;
+    padding: 15px;
     /* center icon */
     margin-left: 15px;
     margin-right: 15px;

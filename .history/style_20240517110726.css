@@ -6,33 +6,12 @@
     --dark-blue: hsl(218, 44%, 22%);
 }
 
-/* import Manrope font */
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
-
-* {
-    font-family: 'Manrope', sans-serif;
-}
-
-
 body {
     background-color: var(--light-gray);
 }
 
 main {
     background-color: var(--white);
-    border-radius: 20px;
-    
-}
-
-p {
-    font-size: 13px;
-    color: var(--grayish-blue);
-}
-
-#section-1 {
-    background-image: url(./images/drawers.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #avatar {
@@ -43,9 +22,9 @@ p {
 }
 
 #share {
-    width: 7%;
+    width: 5%;
     position: static;
-    margin-bottom: 2%;
+    
 }
 
 .share-background {
@@ -54,7 +33,7 @@ p {
     border-radius: 50%;
     padding: 10px;
     /* center icon */
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     z-index: -2;
 }
